@@ -28,6 +28,7 @@ uv run pytest --cov=instrument_harness_lab --cov-report=term-missing
 也可以先讀設計文件：
 
 ```bash
+open docs/TEACHING_MANUAL.md
 open docs/HARNESS_ENGINEERING_DESIGN.md
 open docs/LESSON_PLAN.md
 ```
@@ -38,6 +39,7 @@ open docs/LESSON_PLAN.md
 .
 ├── AGENTS.md                         # feedforward guide：給 coding agent 的專案規則
 ├── docs/
+│   ├── TEACHING_MANUAL.md            # 講師用完整教學手冊
 │   ├── HARNESS_ENGINEERING_DESIGN.md # 原文觀念到本專案元件的完整對應
 │   └── LESSON_PLAN.md                # 課程流程與實作練習
 ├── guides/                           # feedforward guides

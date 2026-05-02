@@ -1,5 +1,7 @@
 # Harness Engineering 課程設計
 
+完整講師手冊請先讀 `docs/TEACHING_MANUAL.md`。本檔案只保留課程流程速查。
+
 ## 對象
 
 儀器公司軟體工程師，熟悉基本 Python 或其他後端語言，正在或即將使用 coding agent 協助開發。
