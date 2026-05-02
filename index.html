@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Harness Shop Kata</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="shop">
+        <div>
+          <p class="eyebrow">Harness Shop</p>
+          <h1>小型電商 Harness 示範</h1>
+          <p class="intro">加商品、套折扣、看測試如何保護規格。</p>
+        </div>
+        <div id="products" class="product-grid" aria-label="商品清單"></div>
+      </section>
+
+      <aside class="cart" aria-label="購物車">
+        <h2>購物車</h2>
+        <ul id="cart-items" class="cart-items"></ul>
+        <label class="promo">
+          折扣碼
+          <input id="promo-code" value="HARNESS10" autocomplete="off">
+        </label>
+        <dl class="totals">
+          <div><dt>小計</dt><dd id="subtotal">NT$0</dd></div>
+          <div><dt>折扣</dt><dd id="discount">NT$0</dd></div>
+          <div><dt>運費</dt><dd id="shipping">NT$80</dd></div>
+          <div class="grand"><dt>總金額</dt><dd id="total">NT$80</dd></div>
+        </dl>
+      </aside>
+    </main>
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>

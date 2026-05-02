@@ -1,0 +1,15 @@
+{
+  "name": "harness-shop-kata",
+  "version": "0.1.0",
+  "description": "A tiny e-commerce website kata for teaching Harness Engineering.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "harness": "node harness/check.js && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
