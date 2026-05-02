@@ -5,6 +5,18 @@
 裡的概念。  
 重點不是電商功能，而是用一個看得到成果的小網站，示範 **guides、sensors、feedforward、feedback 與 human steering loop**。
 
+## 講師請先看這份
+
+不要直接從程式碼開始教。  
+請先照 [TEACHING.md](TEACHING.md) 的循序流程帶課：
+
+1. 先看網站。
+2. 再問 agent 可能犯什麼錯。
+3. 再看 `GUIDE.md`。
+4. 再跑 `npm run harness`。
+5. 再故意破壞 behaviour 與 architecture。
+6. 最後才整理原文概念。
+
 ## 先看成果
 
 ```bash
